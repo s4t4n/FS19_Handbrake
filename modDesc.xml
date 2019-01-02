@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+
+<!-- Custom Sound Templates 1.0.0 von s4t4n -->
+	<author>s4t4n</author>
+	<version>1.0.0</version>
+	<title>
+		<de>Handbremse</de> 
+		<en>Handbrake</en>
+	</title>
+	<description>
+		<de><![CDATA[Handbremse]]></de>
+		<en><![CDATA[Handbrake]]></en>
+	</description>
+	<iconFilename>store.dds</iconFilename>
+	<multiplayer supported="true"/>
+	<!-- <sounds externalSoundFile="customsoundtemps.xml" /> -->
+	<extraSourceFiles>
+		<sourceFile filename="handBrakeRegister.lua"/>
+	</extraSourceFiles>
+	<inputBindings>
+		<actionBinding action="handBrakeKey">	
+			<binding device="" input="KEY_end"  axisComponent="" inputComponent="" index=""/>
+		</actionBinding> 
+    </inputBindings>
+	<l10n>	
+<text name="input_handBrakeKey"><en>Handbrake</en><en>handbrake</en></text>	
+    </l10n>
+</modDesc> 
